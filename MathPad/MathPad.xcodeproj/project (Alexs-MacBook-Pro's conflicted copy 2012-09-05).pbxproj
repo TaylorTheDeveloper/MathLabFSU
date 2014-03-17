@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE239A0815DB6D5F00FF6523 /* LessonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE239A0715DB6D5F00FF6523 /* LessonCell.m */; };
+		AE9F479915DB1FCF00C239B5 /* Lesson.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9F479815DB1FCF00C239B5 /* Lesson.m */; };
+		AE9F479F15DB22AF00C239B5 /* GradeContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9F479E15DB22AF00C239B5 /* GradeContainer.m */; };
+		AE9F47A215DB615B00C239B5 /* LessonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9F47A115DB615B00C239B5 /* LessonViewController.m */; };
+		AEBA6F1415DAFA4C00D50C1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBA6F1315DAFA4C00D50C1D /* UIKit.framework */; };
+		AEBA6F1615DAFA4C00D50C1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBA6F1515DAFA4C00D50C1D /* Foundation.framework */; };
+		AEBA6F1815DAFA4C00D50C1D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBA6F1715DAFA4C00D50C1D /* CoreGraphics.framework */; };
+		AEBA6F1A15DAFA4C00D50C1D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBA6F1915DAFA4C00D50C1D /* CoreData.framework */; };
+		AEBA6F2015DAFA4C00D50C1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEBA6F1E15DAFA4C00D50C1D /* InfoPlist.strings */; };
+		AEBA6F2215DAFA4C00D50C1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBA6F2115DAFA4C00D50C1D /* main.m */; };
+		AEBA6F2615DAFA4C00D50C1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBA6F2515DAFA4C00D50C1D /* AppDelegate.m */; };
+		AEBA6F2915DAFA4C00D50C1D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBA6F2715DAFA4C00D50C1D /* MainStoryboard.storyboard */; };
+		AEBA6F2C15DAFA4C00D50C1D /* MathPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEBA6F2A15DAFA4C00D50C1D /* MathPad.xcdatamodeld */; };
+		AEBA6F2F15DAFA4C00D50C1D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBA6F2E15DAFA4C00D50C1D /* MasterViewController.m */; };
+		AEBA6F3215DAFA4C00D50C1D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBA6F3115DAFA4C00D50C1D /* DetailViewController.m */; };
+		AEBA6F3915DB021C00D50C1D /* lesson in Resources */ = {isa = PBXBuildFile; fileRef = AEBA6F3815DB021C00D50C1D /* lesson */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE239A0615DB6D5F00FF6523 /* LessonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonCell.h; sourceTree = "<group>"; };
+		AE239A0715DB6D5F00FF6523 /* LessonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonCell.m; sourceTree = "<group>"; };
+		AE9F479715DB1FCF00C239B5 /* Lesson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson.h; sourceTree = "<group>"; };
+		AE9F479815DB1FCF00C239B5 /* Lesson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson.m; sourceTree = "<group>"; };
+		AE9F479D15DB22AF00C239B5 /* GradeContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradeContainer.h; sourceTree = "<group>"; };
+		AE9F479E15DB22AF00C239B5 /* GradeContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradeContainer.m; sourceTree = "<group>"; };
+		AE9F47A015DB615B00C239B5 /* LessonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonViewController.h; sourceTree = "<group>"; };
+		AE9F47A115DB615B00C239B5 /* LessonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonViewController.m; sourceTree = "<group>"; };
+		AEBA6F0F15DAFA4C00D50C1D /* MathPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBA6F1315DAFA4C00D50C1D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AEBA6F1515DAFA4C00D50C1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AEBA6F1715DAFA4C00D50C1D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AEBA6F1915DAFA4C00D50C1D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AEBA6F1D15DAFA4C00D50C1D /* MathPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MathPad-Info.plist"; sourceTree = "<group>"; };
+		AEBA6F1F15DAFA4C00D50C1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AEBA6F2115DAFA4C00D50C1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEBA6F2315DAFA4C00D50C1D /* MathPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MathPad-Prefix.pch"; sourceTree = "<group>"; };
+		AEBA6F2415DAFA4C00D50C1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEBA6F2515DAFA4C00D50C1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEBA6F2815DAFA4C00D50C1D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AEBA6F2B15DAFA4C00D50C1D /* MathPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MathPad.xcdatamodel; sourceTree = "<group>"; };
+		AEBA6F2D15DAFA4C00D50C1D /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		AEBA6F2E15DAFA4C00D50C1D /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		AEBA6F3015DAFA4C00D50C1D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		AEBA6F3115DAFA4C00D50C1D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		AEBA6F3815DB021C00D50C1D /* lesson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lesson; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEBA6F0C15DAFA4C00D50C1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBA6F1415DAFA4C00D50C1D /* UIKit.framework in Frameworks */,
+				AEBA6F1615DAFA4C00D50C1D /* Foundation.framework in Frameworks */,
+				AEBA6F1815DAFA4C00D50C1D /* CoreGraphics.framework in Frameworks */,
+				AEBA6F1A15DAFA4C00D50C1D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEBA6F0415DAFA4C00D50C1D = {
+			isa = PBXGroup;
+			children = (
+				AEBA6F1B15DAFA4C00D50C1D /* MathPad */,
+				AEBA6F1215DAFA4C00D50C1D /* Frameworks */,
+				AEBA6F1015DAFA4C00D50C1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEBA6F1015DAFA4C00D50C1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEBA6F0F15DAFA4C00D50C1D /* MathPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEBA6F1215DAFA4C00D50C1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEBA6F1315DAFA4C00D50C1D /* UIKit.framework */,
+				AEBA6F1515DAFA4C00D50C1D /* Foundation.framework */,
+				AEBA6F1715DAFA4C00D50C1D /* CoreGraphics.framework */,
+				AEBA6F1915DAFA4C00D50C1D /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEBA6F1B15DAFA4C00D50C1D /* MathPad */ = {
+			isa = PBXGroup;
+			children = (
+				AEBA6F2415DAFA4C00D50C1D /* AppDelegate.h */,
+				AEBA6F2515DAFA4C00D50C1D /* AppDelegate.m */,
+				AEBA6F2715DAFA4C00D50C1D /* MainStoryboard.storyboard */,
+				AEBA6F2D15DAFA4C00D50C1D /* MasterViewController.h */,
+				AEBA6F2E15DAFA4C00D50C1D /* MasterViewController.m */,
+				AE9F47A015DB615B00C239B5 /* LessonViewController.h */,
+				AE9F47A115DB615B00C239B5 /* LessonViewController.m */,
+				AE239A0615DB6D5F00FF6523 /* LessonCell.h */,
+				AE239A0715DB6D5F00FF6523 /* LessonCell.m */,
+				AEBA6F3015DAFA4C00D50C1D /* DetailViewController.h */,
+				AEBA6F3115DAFA4C00D50C1D /* DetailViewController.m */,
+				AE9F479D15DB22AF00C239B5 /* GradeContainer.h */,
+				AE9F479E15DB22AF00C239B5 /* GradeContainer.m */,
+				AEBA6F2A15DAFA4C00D50C1D /* MathPad.xcdatamodeld */,
+				AE9F479715DB1FCF00C239B5 /* Lesson.h */,
+				AE9F479815DB1FCF00C239B5 /* Lesson.m */,
+				AEBA6F3815DB021C00D50C1D /* lesson */,
+				AEBA6F1C15DAFA4C00D50C1D /* Supporting Files */,
+			);
+			path = MathPad;
+			sourceTree = "<group>";
+		};
+		AEBA6F1C15DAFA4C00D50C1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEBA6F1D15DAFA4C00D50C1D /* MathPad-Info.plist */,
+				AEBA6F1E15DAFA4C00D50C1D /* InfoPlist.strings */,
+				AEBA6F2115DAFA4C00D50C1D /* main.m */,
+				AEBA6F2315DAFA4C00D50C1D /* MathPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEBA6F0E15DAFA4C00D50C1D /* MathPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEBA6F3515DAFA4C00D50C1D /* Build configuration list for PBXNativeTarget "MathPad" */;
+			buildPhases = (
+				AEBA6F0B15DAFA4C00D50C1D /* Sources */,
+				AEBA6F0C15DAFA4C00D50C1D /* Frameworks */,
+				AEBA6F0D15DAFA4C00D50C1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathPad;
+			productName = MathPad;
+			productReference = AEBA6F0F15DAFA4C00D50C1D /* MathPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEBA6F0615DAFA4C00D50C1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Alex Muller";
+			};
+			buildConfigurationList = AEBA6F0915DAFA4C00D50C1D /* Build configuration list for PBXProject "MathPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AEBA6F0415DAFA4C00D50C1D;
+			productRefGroup = AEBA6F1015DAFA4C00D50C1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEBA6F0E15DAFA4C00D50C1D /* MathPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEBA6F0D15DAFA4C00D50C1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBA6F2015DAFA4C00D50C1D /* InfoPlist.strings in Resources */,
+				AEBA6F2915DAFA4C00D50C1D /* MainStoryboard.storyboard in Resources */,
+				AEBA6F3915DB021C00D50C1D /* lesson in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEBA6F0B15DAFA4C00D50C1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBA6F2215DAFA4C00D50C1D /* main.m in Sources */,
+				AEBA6F2615DAFA4C00D50C1D /* AppDelegate.m in Sources */,
+				AEBA6F2C15DAFA4C00D50C1D /* MathPad.xcdatamodeld in Sources */,
+				AEBA6F2F15DAFA4C00D50C1D /* MasterViewController.m in Sources */,
+				AEBA6F3215DAFA4C00D50C1D /* DetailViewController.m in Sources */,
+				AE9F479915DB1FCF00C239B5 /* Lesson.m in Sources */,
+				AE9F479F15DB22AF00C239B5 /* GradeContainer.m in Sources */,
+				AE9F47A215DB615B00C239B5 /* LessonViewController.m in Sources */,
+				AE239A0815DB6D5F00FF6523 /* LessonCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEBA6F1E15DAFA4C00D50C1D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEBA6F1F15DAFA4C00D50C1D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AEBA6F2715DAFA4C00D50C1D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEBA6F2815DAFA4C00D50C1D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEBA6F3315DAFA4C00D50C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AEBA6F3415DAFA4C00D50C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEBA6F3615DAFA4C00D50C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MathPad/MathPad-Prefix.pch";
+				INFOPLIST_FILE = "MathPad/MathPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AEBA6F3715DAFA4C00D50C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MathPad/MathPad-Prefix.pch";
+				INFOPLIST_FILE = "MathPad/MathPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEBA6F0915DAFA4C00D50C1D /* Build configuration list for PBXProject "MathPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBA6F3315DAFA4C00D50C1D /* Debug */,
+				AEBA6F3415DAFA4C00D50C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEBA6F3515DAFA4C00D50C1D /* Build configuration list for PBXNativeTarget "MathPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBA6F3615DAFA4C00D50C1D /* Debug */,
+				AEBA6F3715DAFA4C00D50C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AEBA6F2A15DAFA4C00D50C1D /* MathPad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AEBA6F2B15DAFA4C00D50C1D /* MathPad.xcdatamodel */,
+			);
+			currentVersion = AEBA6F2B15DAFA4C00D50C1D /* MathPad.xcdatamodel */;
+			path = MathPad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AEBA6F0615DAFA4C00D50C1D /* Project object */;
+}
